@@ -26,6 +26,7 @@ This module allows users to choose between analyzing victim and perpetrator syst
 This forensics tool is designed to assist users in investigating compromised victim systems. It provides an automated analysis option to identify vulnerabilities, anomalies, and potential security incidents.
 
 ### Getting Started
+
 <details>
   <summary>Automated Steps</summary>
 
@@ -90,11 +91,11 @@ This forensics tool is designed to assist users in investigating compromised vic
 
 </details>
 
-**Prerequisites:**
-- Go 1.21.6 or higher
-- Dependencies specified in `go.mod`
-
-### Installation
+### Usage
 
 ```bash
-go run main.go
+# Check firewall configuration
+go run main.go firewall-check
+
+# Perform automated victim system analysis
+go run main.go victim-analysis
