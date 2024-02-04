@@ -1,24 +1,39 @@
-# Security Tool - Digital Forensics Module
+# Security Tool - Firewall Configuration Checker and Digital Forensics
 
-## Forensic Write Blocker
-<p><strong>Always use a forensic write blocker when accessing storage media containing potential evidence. Failure to do so may result in unintended changes to the evidence.</strong></p>
+## Firewall Configuration Checker
 
-## Overview
+### Overview
 
-<p>This tool includes a Digital Forensics module designed to assist investigators in analyzing storage media while ensuring the integrity of the original data. When conducting digital forensic investigations, it is imperative to follow best practices to prevent unintentional modifications to the evidence.</p>
+<p>This module provides automated checks for your firewall settings and identifies potential vulnerabilities through CVE scanning. Additionally, it utilizes Colly to crawl the LAN network, discovering devices for targeted security checks.</p>
 
-### How to Use the Forensic Write Blocker
+### Features
 
-<p>Whether you are working with hardware or software-based solutions, the following steps are essential:</p>
+- <h3>Automated Firewall Checks:</h3> <p>Quickly assess the configuration of your firewall settings.</p>
+- <h3>CVE Scanning:</h3> <p>Identify potential vulnerabilities by cross-referencing service versions with known Common Vulnerabilities and Exposures (CVEs).</p>
+- <h3>LAN Network Crawler:</h3> <p>Use Colly to crawl the LAN network and discover devices for targeted security checks.</p>
 
-1. <p><strong>Select the Right Tool:</strong>
-   Choose a forensic write blocker that is appropriate for the type of storage media you are investigating (e.g., SATA, USB, IDE).</p>
+## Digital Forensics
 
-2. <p><strong>Check Compatibility:</strong>
-   Ensure that the write blocker is compatible with the storage device you intend to analyze.</p>
+### Overview
 
-3. <p><strong>Verify Write Protection:</strong>
-   Before proceeding with any forensic examination, confirm that the write protection feature is active. This ensures that no unintentional changes are made to the evidence.</p>
+<p>This module allows users to choose between analyzing victim and perpetrator systems before selecting a specific forensic task. Users can select from various victim system categories and perform specific forensics tasks.</p>
 
-4. <p><strong>Document the Process:</strong>
-   Maintain detailed records of the write-blocking process, including the make and model of the write blocker used.</p>
+### Features
+
+- <h3>Victim and Perpetrator System Analysis:</h3> <p>Choose between analyzing victim and perpetrator systems before selecting a specific forensic task.</p>
+- <h3>Victim System Categories:</h3>
+  - <p>Servers that have been hacked or cracked through system vulnerabilities and bad server configuration.</p>
+  - <p>Unauthorized access cases to servers through stolen credentials.</p>
+  - <p>Computers that have been attacked through malware by downloading malicious files or scripts.</p>
+- <h3>Forensic Task Options:</h3> <p>Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.</p>
+
+## Getting Started
+
+### Prerequisites
+
+- Go 1.21.6 or higher
+
+### Installation
+
+```bash
+go run main.go
