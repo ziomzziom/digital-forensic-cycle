@@ -2,36 +2,34 @@
 
 ## Firewall Configuration Checker
 
-### Overview
+This module automates firewall checks, identifies vulnerabilities through CVE scanning, and uses Colly to crawl the LAN network for targeted security checks.
 
-<p>This module provides automated checks for your firewall settings and identifies potential vulnerabilities through CVE scanning. Additionally, it utilizes Colly to crawl the LAN network, discovering devices for targeted security checks.</p>
-
-### Features
-
-- <h3>Automated Firewall Checks:</h3> <p>Quickly assess the configuration of your firewall settings.</p>
-- <h3>CVE Scanning:</h3> <p>Identify potential vulnerabilities by cross-referencing service versions with known Common Vulnerabilities and Exposures (CVEs).</p>
-- <h3>LAN Network Crawler:</h3> <p>Use Colly to crawl the LAN network and discover devices for targeted security checks.</p>
+**Features:**
+- **Automated Firewall Checks:** Quickly assess the configuration of your firewall settings.
+- **CVE Scanning:** Identify potential vulnerabilities through CVE scanning.
+- **LAN Network Crawler:** Utilize Colly to discover devices on the LAN network.
 
 ## Digital Forensics
 
-### Overview
+This module allows users to choose between analyzing victim and perpetrator systems, selecting from various victim system categories and performing specific forensics tasks.
 
-<p>This module allows users to choose between analyzing victim and perpetrator systems before selecting a specific forensic task. Users can select from various victim system categories and perform specific forensics tasks.</p>
+**Features:**
+- **Victim and Perpetrator System Analysis:** Choose between analyzing victim and perpetrator systems before selecting a specific forensic task.
+- **Victim System Categories:**
+  - Servers hacked or cracked through vulnerabilities and bad server configuration.
+  - Unauthorized access to servers through stolen credentials.
+  - Computers attacked through malware by downloading malicious files or scripts.
+- **Forensic Task Options:** Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.
 
-### Features
+## Automated Victim System Analysis
 
-- <h3>Victim and Perpetrator System Analysis:</h3> <p>Choose between analyzing victim and perpetrator systems before selecting a specific forensic task.</p>
-- <h3>Victim System Categories:</h3>
-  - <p>Servers that have been hacked or cracked through system vulnerabilities and bad server configuration.</p>
-  - <p>Unauthorized access cases to servers through stolen credentials.</p>
-  - <p>Computers that have been attacked through malware by downloading malicious files or scripts.</p>
-- <h3>Forensic Task Options:</h3> <p>Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.</p>
+This forensics tool is designed to assist users in investigating compromised victim systems. It provides an automated analysis option to identify vulnerabilities, anomalies, and potential security incidents.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
-
+**Prerequisites:**
 - Go 1.21.6 or higher
+- Dependencies specified in `go.mod`
 
 ### Installation
 
