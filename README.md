@@ -26,16 +26,6 @@ This module allows users to choose between analyzing victim and perpetrator syst
 This forensics tool is designed to assist users in investigating compromised victim systems. It provides an automated analysis option to identify vulnerabilities, anomalies, and potential security incidents.
 
 ### Getting Started
-
-**Prerequisites:**
-- Go 1.21.6 or higher
-- Dependencies specified in `go.mod`
-
-### Installation
-
-```bash
-go run main.go
-
 <details>
   <summary>Automated Steps</summary>
 
@@ -100,3 +90,11 @@ go run main.go
 
 </details>
 
+**Prerequisites:**
+- Go 1.21.6 or higher
+- Dependencies specified in `go.mod`
+
+### Installation
+
+```bash
+go run main.go
