@@ -19,6 +19,70 @@ This module allows users to choose between analyzing victim and perpetrator syst
   - Servers hacked or cracked through vulnerabilities and bad server configuration.
   - Unauthorized access to servers through stolen credentials.
   - Computers attacked through malware by downloading malicious files or scripts.
+  - <details>
+  <summary>Automated Steps</summary>
+
+  ### Isolation and Containment:
+
+  - Isolate the compromised system.
+  - Contain the incident to prevent further damage.
+
+  ### Documentation:
+
+  - Record incident details, including date, time, and affected system(s).
+
+  ### Forensic Image:
+
+  - Create a forensically sound image of the compromised system's storage.
+
+  ### Initial Analysis:
+
+  - Review system logs for unusual activities.
+  - Check configuration files for unauthorized changes.
+
+  ### Identify Vulnerabilities:
+
+  - Check patch levels for missing security updates.
+  - Review vulnerability reports and scan for malware.
+
+  ### Network Traffic Analysis:
+
+  - Analyze network logs for unusual or suspicious traffic.
+
+  ### User and Access Analysis:
+
+  - Review user accounts for unauthorized or suspicious activity.
+  - Audit access logs to identify unusual login patterns.
+
+  ### Incident Timeline Reconstruction:
+
+  - Create an incident timeline to establish chronological order.
+
+  ### Root Cause Analysis:
+
+  - Determine the root cause of the compromise.
+
+  ### Automated Investigation (Anomaly Search):
+
+  - This script will attempt to automate the search for anomalies.
+  - Customized automation logic can be added based on your environment.
+
+  ### Remediation and Recovery:
+
+  - Apply necessary patches and updates.
+  - Enhance security configurations based on findings.
+
+  ### Post-Incident Analysis:
+
+  - Conduct a post-incident analysis to identify lessons learned.
+
+  ### Reporting:
+
+  - Document investigation findings in a comprehensive report.
+  - Comply with any legal or regulatory reporting requirements.
+
+</details>
+
 - **Forensic Task Options:** Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.
 
 ## Automated Victim System Analysis
