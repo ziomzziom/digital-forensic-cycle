@@ -19,7 +19,24 @@ This module allows users to choose between analyzing victim and perpetrator syst
   - Servers hacked or cracked through vulnerabilities and bad server configuration.
   - Unauthorized access to servers through stolen credentials.
   - Computers attacked through malware by downloading malicious files or scripts.
-  - <details>
+- **Forensic Task Options:** Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.
+
+## Automated Victim System Analysis
+
+This forensics tool is designed to assist users in investigating compromised victim systems. It provides an automated analysis option to identify vulnerabilities, anomalies, and potential security incidents.
+
+### Getting Started
+
+**Prerequisites:**
+- Go 1.21.6 or higher
+- Dependencies specified in `go.mod`
+
+### Installation
+
+```bash
+go run main.go
+
+<details>
   <summary>Automated Steps</summary>
 
   ### Isolation and Containment:
@@ -83,19 +100,3 @@ This module allows users to choose between analyzing victim and perpetrator syst
 
 </details>
 
-- **Forensic Task Options:** Perform various forensics tasks, including network forensics, memory forensics, disk forensics, and incident response automation.
-
-## Automated Victim System Analysis
-
-This forensics tool is designed to assist users in investigating compromised victim systems. It provides an automated analysis option to identify vulnerabilities, anomalies, and potential security incidents.
-
-### Getting Started
-
-**Prerequisites:**
-- Go 1.21.6 or higher
-- Dependencies specified in `go.mod`
-
-### Installation
-
-```bash
-go run main.go
