@@ -1,11 +1,11 @@
 # Security Tool - Digital Forensics Module
 
+## Forensic Write Blocker
+<p><strong>Always use a forensic write blocker when accessing storage media containing potential evidence. Failure to do so may result in unintended changes to the evidence.</strong></p>
+
 ## Overview
 
 <p>This tool includes a Digital Forensics module designed to assist investigators in analyzing storage media while ensuring the integrity of the original data. When conducting digital forensic investigations, it is imperative to follow best practices to prevent unintentional modifications to the evidence.</p>
-
-## Forensic Write Blocker
-<p><strong>Always use a forensic write blocker when accessing storage media containing potential evidence. Failure to do so may result in unintended changes to the evidence.</strong></p>
 
 ### How to Use the Forensic Write Blocker
 
